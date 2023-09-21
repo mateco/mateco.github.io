@@ -1,0 +1,58 @@
+body {
+    background-color: black; /* Define o fundo como preto */
+    color: white; /* Define a cor do texto como branco */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+  text-align: center
+}
+
+h2{
+  text-align: center
+}
+
+p {
+    text-align: center;
+    width: 650px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 white;
+}
+
+  .container {
+    display: flex; /* Ativa o modelo flexbox */
+    justify-content: center; /* Centraliza horizontalmente dentro do contêiner pai */
+    align-items: center; /* Centraliza verticalmente dentro do contêiner pai */
+    height: 30vh; /* Define a altura do contêiner, por exemplo, 100% da altura da janela (viewport height) */
+}
+
+.centro{
+    text-align: center;
+}
+
+.caixa{
+    width: 100vh !important;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box{
+  text-align: center;
+  width: 650px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 white;  
+}
+
+/* Estilos para a imagem */
+.imagem {
+  max-width: 100%; /* Define a largura máxima da imagem como 100% do contêiner */
+  max-height: 100%; /* Define a altura máxima da imagem como 100% do contêiner */
+  border-radius: 62%; /* Define um raio de 50% para arredondar as bordas */
+  box-shadow: 0 0 7px 0 white; 
+}
+
+
+
